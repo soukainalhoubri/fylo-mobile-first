@@ -1,0 +1,715 @@
+/*importing fonts*/
+
+@font-face {
+    font-family: "Raleway-regular";
+    src: url(./fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Raleway-Black";
+    src: url(./fonts/Raleway-Black.ttf);
+}
+@font-face {
+    font-family: "Raleway-BlackItalic";
+    src: url(./fonts/Raleway-BlackItalic.ttf);
+}
+@font-face {
+    font-family: "Raleway-Bold";
+    src: url(./fonts/Raleway-Bold.ttf);
+}
+@font-face {
+    font-family: "Raleway-BoldItalic";
+    src: url(./fonts/Raleway-BoldItalic.ttf);
+}
+@font-face {
+    font-family: "Raleway-ExtraBold";
+    src: url(./fonts/Raleway-ExtraBold.ttf);
+}
+@font-face {
+    font-family: "Raleway-ExtraBoldItalic";
+    src: url(./fonts/Raleway-ExtraBoldItalic.ttf);
+}
+@font-face {
+    font-family: "Raleway-ExtraLight";
+    src: url(./fonts/Raleway-ExtraLight.ttf);
+}
+@font-face {
+    font-family: "Raleway-ExtraLightItalic";
+    src: url(./fonts/Raleway-ExtraLightItalic.ttf);
+}
+@font-face {
+    font-family: "Raleway-Italic";
+    src: url(./fonts/Raleway-Italic.ttf);
+}
+@font-face {
+    font-family: "Raleway-Light";
+    src: url(./fonts/Raleway-Light.ttf);
+}
+@font-face {
+    font-family: "Raleway-LightItalic";
+    src: url(./fonts/Raleway-LightItalic.ttf);
+}
+@font-face {
+    font-family: "Raleway-Medium";
+    src: url(./fonts/Raleway-Medium.ttf);
+}
+@font-face {
+    font-family: "Raleway-MediumItalic";
+    src: url(./fonts/Raleway-MediumItalic.ttf);
+}
+@font-face {
+    font-family: "Raleway-SemiBold";
+    src: url(./fonts/Raleway-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Raleway-SemiBoldItalic";
+    src: url(./fonts/Raleway-SemiBoldItalic.ttf);
+}
+@font-face {
+    font-family: "Raleway-Thin";
+    src: url(./fonts/Raleway-Thin.ttf);
+}
+@font-face {
+    font-family: "Raleway-ThinItalic";
+    src: url(./fonts/Raleway-ThinItalic.ttf);
+}
+
+
+@font-face {
+    font-family: "OpenSans-ExtraBold";
+    src: url(./fonts/OpenSans-ExtraBold.ttf);
+}
+
+
+@font-face {
+    font-family: "OpenSans-Medium";
+    src: url(./fonts/OpenSans-Medium.ttf);
+}
+
+
+@font-face {
+    font-family:"OpenSans-Regular" ;
+    src: url(./fonts/OpenSans-Regular.ttf);
+}
+/* colors */
+
+:root{
+    --one: hsl(243, 87%, 12%);
+    --two:hsl(238, 22%, 44%);
+    --three:hsl(224, 93%, 58%);
+    --four:hsl(170, 45%, 43%);
+    --five:hsl(240, 75%, 98%);
+    --six:hsl(0, 0%, 75%);
+    --seven:#F8F8FE;
+}
+
+/* media 320 */
+/* media 320 */
+/* media 320 */
+/* media 320 */
+/* media 320 */
+
+@media (max-width:320px){
+    .footer-small{
+        padding: 4rem 2.5rem;
+    }
+}
+
+
+/*media 425*/
+/*media 425*/
+/*media 425*/
+/*media 425*/
+
+@media(min-width:425){
+    section.productive-section{
+        overflow-x: hidden;
+    }
+    section.productive-section svg.mobile-curve{
+        display: none!important;
+    }
+    section.productive-section svg.desktop-curve{
+        display: block;
+    }
+}
+
+/* media 768 */
+/* media 768 */
+/* media 768 */
+/* media 768 */
+/* media 768 */
+
+
+@media (min-width:768px){
+    section.hero{
+        margin: 3em auto;
+    }
+    section.hero .hero-join .h1-raleway{
+        font-size: 1.2rem;
+        text-align: left;
+        font-family:Raleway-Bold;
+    }
+    section.hero .hero-join p{
+        text-align: left;
+        font-size: 0.8rem;
+        
+    }
+    section.hero .hero-join .form {
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 0.4rem;
+        margin-right: 1.7em;
+    }
+
+    .flex-row{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .file-illustration{
+        order: 1;
+    }
+    section.productive-section .productive-illustration{
+        margin-top:3rem ;
+    }
+    section.productive-section .productive-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1em 2em;
+    }
+    section.productive-section .productive-wrapper .productive-illustration{
+        order: 1;
+    }
+    section.productive-section .productive-wrapper .productivity .productivity-info h1{
+        font-size: 1rem;
+        margin: 0.5em 1em;
+        text-align: left;
+    }
+    section.productive-section .productive-wrapper .productivity .productivity-info p{
+        font-family: OpenSans-Medium;
+        font-size: 0.6rem;
+        margin: 1em 1em;
+    }
+    section.productive-section .productive-wrapper .productivity .how-fylo-works{
+        margin-top: -3em;
+        text-align: left;
+        margin-left: 0.7em;
+        font-size: 0.6rem;
+    }
+    section.productive-section .productive-wrapper .productivity .comment-card{
+        font-size: 0.6rem;
+    }
+    section.early-access{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: left;
+    }
+    section.early-access div h1{
+        margin-left: 1em;
+    }
+    .flex-1{
+        flex: 1;
+    }
+    #email2{
+        max-width: 20rem;
+    }
+    #submit2{
+        max-width: 10rem;
+    }
+    .footer-row{
+        display: flex;
+        flex-direction: row;
+        font-size: 0.8rem;
+        justify-content: space-between;
+    }
+    footer .footer-wrapper .social-media a{
+        width: 1.7rem;
+        height: 1.7rem;
+        text-align: center;
+        border: 2px solid white;
+        border-radius: 100%;
+        margin:1em 0.5em 0;
+    }
+    footer .footer-wrapper .social-media a:hover{
+        border: 2px solid var(--two)
+    }
+    footer .footer-wrapper .social-media a i{
+        font-size: 1rem;
+    }
+    footer.footer-wrapper .coordinates .coordinate-element{
+        margin:0 auto;
+    }
+
+    .margin-none{
+        margin:0.5em auto;
+    }
+    
+    
+}
+
+/*media 1024*/
+/*media 1024*/
+/*media 1024*/
+/*media 1024*/
+
+@media (min-width:1024px){
+    /*header*/
+    header.container{
+        font-size: 1rem;
+    }
+    header.container #logo{
+        height: 1.5rem;
+    }
+    /*hero*/
+    section.hero .hero-join .h1-raleway{
+        font-size: 1.5rem;
+    }
+    section.hero .hero-join p{
+        font-size: 1rem;
+    }
+    section.hero .hero-join .form{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    section.hero .hero-join .form .email{
+        width: 52%;
+    }
+    section.hero .hero-join .form .submit{
+        width: 40%;
+    }
+
+
+    /*second section*/
+
+    section.productive-section .productive-wrapper .productivity .productivity-info h1{
+        font-size: 1.5rem;
+    }
+    section.productive-section .productive-wrapper .productive-illustration img{
+        max-width: 70%;
+    }
+
+
+    section.productive-section .productive-wrapper .productivity .productivity-info h1{
+        font-size: 1.15rem;
+    }
+
+    section.productive-section .productive-wrapper .productivity .productivity-info p{
+        font-size: 0.75rem;
+    }
+
+    section.early-access .form{
+        display: flex;
+        flex-direction: column;
+    }
+    /*footer*/
+    footer .footer-wrapper{
+        font-size: 1rem;
+    }
+
+}
+
+/*media 1440*/
+/*media 1440*/
+/*media 1440*/
+/*media 1440*/
+
+@media(min-width:1440px){
+    /*hero*/
+    section.hero .hero-join .h1-raleway{
+        font-size: 2rem;
+    }
+    section.hero .hero-join p{
+        font-size: 1.1rem;
+    }
+
+    /*second section*/
+    section.productive-section .productive-wrapper .productivity .productivity-info .h1-productive{
+        font-size: 2.1rem;
+    }
+    section.productive-section .productive-wrapper .productivity .how-fylo-works{
+        font-size: 1rem;
+    }
+    section.productive-section .productive-wrapper .productivity .comment-card{
+        font-size: 1rem;
+        margin-left: 1em;
+    }
+    section.productive-section .productive-wrapper .productivity .productivity-info .para{
+        font-size: 1rem;
+    }
+    section.productive-section .productive-wrapper .productive-illustration img{
+        max-width: 100%;
+    }
+
+
+    /*third section*/
+
+
+    section.early-access{
+        justify-content: space-between;
+    }
+}
+/*commun style*/
+/*commun style*/
+/*commun style*/
+/*commun style*/
+/*commun style*/
+
+
+body{
+    /* box-sizing: content-box; */
+    font-family:Raleway-Medium;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+.container{
+    width: 90%;
+    margin:0 auto;
+}
+
+/*header
+header
+header
+header*/
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 auto;
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin: auto 0;
+    /* min-width:90%; */
+}
+
+header #logo{
+    height: 1rem;
+    margin: 0;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+nav ul li{
+    margin: auto 0.6em;
+    color: var(--two);
+}
+
+nav ul li:hover{
+    color:var(--three);
+}
+
+
+
+
+/* hero
+hero
+hero
+hero
+hero */
+
+
+h1{
+    font-family:  Raleway-ExtraBold;
+    color: var(--one);
+}
+img{
+    padding: 0.2rem;
+    max-width: 100%;
+    margin: 2rem auto;
+}
+.hero .hero-join{
+    text-align: center;
+}
+.hero .hero-join h1{
+    font-weight: 800;
+    font-size: 1.3rem;
+    margin: 0.7em auto;
+    line-height: 1.3em;
+    font-family:OpenSans-ExtraBold ;
+    color: var(--one);
+}
+
+.hero .hero-join p{
+    margin: 1.2em auto;
+    color:var(--two) ;
+}
+.hero .hero-join form{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.25em;
+}
+
+.email{
+    max-width: 20rem;
+    width: 83%;
+    display: inline-block;
+    height: 2.5rem;
+    margin: auto;
+    padding:0 0.8em;
+    outline: none;
+    border: 1px solid var(--two);
+    border-radius: 4px;
+    box-shadow:0.1em 0.1em 3px rgba(0,0,0,0.5);
+    box-shadow:0.1em 0.1em 3px rgba(0,0,0,0.3);
+}
+
+.hero .hero-join input#email1:hover{
+    border: 1px solid var(--three);
+}
+.hero .hero-join input#email1:focus{
+    border: 1px solid red;
+}
+
+
+
+.submit{
+    height: 2.5rem;
+    /* width: 19rem; */
+    width: 90%;
+    max-width: 20rem;
+    margin: 0.25em auto;
+    display: inline-block;
+    border: 1px solid var(--two);
+    border-radius: 4px;
+    box-shadow:0.1em 0.1em 3px rgba(0,0,0,0.5);
+    box-shadow:0.1em 0.1em 3px rgba(0,0,0,0.3);
+    background-color: var(--three);
+    color: white;
+    font-size: 1rem;
+    outline: none;
+    position: relative;
+
+}
+.overlay{
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 4px;
+    opacity: 0;
+}
+
+
+
+.hero .hero-join .submit:hover .overlay{
+    opacity: 0.3;
+}
+
+
+/*section 2*/
+/*section 2*/
+/*section 2*/
+/*section 2*/
+/*section 2*/
+.productive-section{
+    margin-top: 3.2rem;
+    overflow-x: hidden;
+    margin-bottom: 0;
+}
+
+.mobile-curve{
+    display: inline-block;
+}
+
+.desktop-curve{
+    display: none;
+    position: absolute;
+}
+
+.productive-wrapper{
+    background-color: var(--seven);
+    margin-top: -0.5rem;
+    padding-bottom: 1rem;
+    font-family:Raleway-Medium;
+}
+
+.productivity .productivity-info h1{
+    font-size: 1.1rem;
+    text-align: center;
+    margin: 1.6em auto;
+}
+
+.productivity .productivity-info p{
+    text-align: left;
+    color: var(--two);
+    font-size: 1rem;
+    font-weight: lighter;
+}
+.para{
+    font-size: 1rem;
+    margin: 0.3em 0.8em;
+}
+.how-fylo-work{
+    align-items: center;
+    padding: auto;
+    text-align: left;
+}
+
+.how-fylo-works a{
+    text-decoration: none;
+    color:var(--four);
+    border-bottom: 2px solid var(--four);
+    padding-bottom: 0.5em;
+}
+
+.how-fylo-works a svg{
+    background-color:var(--four);
+    border-radius: 50%;
+    margin-left: 1em;
+    transform: scale(1.2);
+    margin-top: 4em;
+    margin-bottom: -0.2rem;
+    box-shadow: 4px hsl(170, 36%, 40%);
+}
+
+.comment-card{
+    background-color: white;
+    margin-top: 2rem;
+    width: 20rem;
+    max-width: 80%;
+    margin: 2rem auto ;
+    padding: 1rem;
+    border-radius: 4px;
+    border: 1px solid rgba(0,0,0,0.1);
+    box-shadow: 1px 1px rgba(0,0,0,0.3);
+    box-shadow: 2px 2px rgba(0,0,0,0.1);
+}
+
+.comment-card svg{
+    float: left;
+  
+}
+
+.comment-card p{
+    clear: left;
+    text-align: left;
+    color: var(--two);
+    margin-top: 2em;
+}
+
+.comment-card .profil{
+    display: flex;
+    align-items: center;
+}
+
+.comment-card .profil img{
+    max-width: 40%;
+    margin: 0;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+}
+
+.comment-card .profil .profil-info{
+    text-align: left;
+    margin-left: 0.08em;
+    padding: 0.5em;
+}
+.comment-card .profil .profil-info h4{
+    margin-bottom: 0;
+} 
+.comment-card .profil .profil-info h6{
+    margin-top: 0.5em;
+}
+
+section.early-access {
+    background-color: var(--two);
+    margin-top: -2rem;
+    padding: 1.5em;
+    color: white;
+}
+section.early-access .get h1{
+
+    color: white;
+}
+.early-access div p{
+    font-family:OpenSans-Regular ;
+    font-size: 0.95rem;
+    padding: 1em;
+}
+
+
+/* footer */
+/* footer */
+/* footer */
+
+
+footer{
+    color: white;
+    font-size: 1rem;
+    background-color: var(--one);
+    padding: 6em 4em;
+    padding-bottom: 1em;
+    text-align: left;
+}
+footer .footer-logo svg g path{
+    fill: white;
+}
+.footer-div{
+    margin: 4em auto;
+}
+.coordinates .coordinate-element{
+    margin: 1.5em auto;
+}
+.coordinates .coordinate-element p {
+    display: inline;
+}
+
+.coordinates .coordinate-element svg {
+    margin-right: 1em;
+}
+
+.about-us a,.contact-us a{
+    text-decoration: none;
+    color: white;
+}
+
+.about-us a p:hover,.contact-us a p:hover{
+    color: var(--two);
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.social-media a{
+    color: white;
+    width: 2.5rem;
+    height: 2.5rem;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 100%;
+}
+
+.social-media a i{
+    margin-top: 0.25em;
+    width: 100%;
+    height: 100%;
+    font-size: 1.8rem;
+    vertical-align: middle;
+    top: 25%;
+}
+
+.social-media a:hover{
+    color: var(--two);
+    border: 2px solid var(--two);
+}
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
